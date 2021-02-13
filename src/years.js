@@ -3,6 +3,8 @@ export let years = [
       year: 2006,
       //photos: ['fotos/2008/01.jpg', 'fotos/2008/01.jpg', 'fotos/2008/01.jpg'],
       photos: [
+        {url:'fotos/2011/05.jpg',
+        date:'Febrero( Maquilladita )'},
           {url:'fotos/2008/01.jpg',
         date:'15/11/06'}, 
         {url:'fotos/2008/01.jpg',
