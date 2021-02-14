@@ -3,17 +3,14 @@ export let years = [
     year: 2006,
     //photos: ['fotos/2008/01.jpg', 'fotos/2008/01.jpg', 'fotos/2008/01.jpg'],
     photos: [
-      { url: "fotos/2011/05.jpg", date: "Febrero( Maquilladita )" },
-      { url: "fotos/2008/01.jpg", date: "15/11/06" },
-      { url: "fotos/2008/01.jpg", date: "15/11/06" },
+      
     ],
     text: "",
   },
   {
     year: 2007,
     photos: [
-      { url: "fotos/2008/01.jpg", date: "Junio" },
-      { url: "fotos/2008/02.jpg", date: "Octubre (ya usando la PC)" },
+     
     ],
     text: "",
   },
@@ -114,27 +111,59 @@ export let years = [
   },
   {
     year: 2016,
-    photos: [],
+    photos: [
+      { url: "fotos/2016/01.jpg", date: "Julio( con las amigas )" },
+      { url: "fotos/2016/02.jpg", date: "Agosto" },
+      { url: "fotos/2016/03.jpg", date: "Diciembre" },
+    ],
     text: "",
   },
   {
     year: 2017,
-    photos: [],
+    photos: [
+      { url: "fotos/2017/01.jpg", date: "Febrero" },
+      { url: "fotos/2017/02.jpg", date: "Febrero( cumple de 11)" },
+      { url: "fotos/2017/03.jpg", date: "Octubre" },
+      { url: "fotos/2017/04.jpg", date: "Noviembre" },
+      { url: "fotos/2017/05.jpg", date: "Noviembre( Con los bichos)" },
+      { url: "fotos/2017/06.jpg", date: "Diciembre( Con los bichos)" },
+    ],
     text: "",
   },
   {
     year: 2018,
-    photos: [],
+    photos: [
+      { url: "fotos/2018/01.jpg", date: "Febrero" },
+      { url: "fotos/2018/02.jpg", date: "Marzo" },
+      { url: "fotos/2018/03.jpg", date: "Junio" },
+      { url: "fotos/2018/04.jpg", date: "Junio" },
+      { url: "fotos/2018/05.jpg", date: "Julio( Que banda )" },
+      { url: "fotos/2018/06.jpg", date: "Diciembre" },
+    ],
     text: "",
   },
   {
     year: 2019,
-    photos: [],
+    photos: [
+      { url: "fotos/2019/01.jpg", date: "Enero" },
+      { url: "fotos/2019/02.jpg", date: "Enero" },
+      { url: "fotos/2019/03.jpg", date: "Enero( Ellas )" },
+      { url: "fotos/2019/04.jpg", date: "Marzo" },
+      { url: "fotos/2019/05.jpg", date: "Abril" },
+      { url: "fotos/2019/06.jpg", date: "Julio" },
+      { url: "fotos/2019/07.jpg", date: "Noviembre" },
+      { url: "fotos/2019/08.jpg", date: "Diciembre" },
+    ],
     text: "",
   },
   {
     year: 2020,
-    photos: [],
+    photos: [
+      { url: "fotos/2020/01.jpg", date: "Enero" },
+      { url: "fotos/2020/02.jpg", date: "Febrero" },
+      { url: "fotos/2020/03.jpg", date: "Marzo" },
+      { url: "fotos/2020/04.jpg", date: "Abril" },
+    ],
     text: "",
   },
   {

@@ -37,7 +37,7 @@
 </div>
   <div class="linea" />
   <div class="contenedor-imagenes">
-    <svelte:component this={Photo} {toShow} />
+    <Photo currentYear={toShow.now}/>
   </div>
 </div>
 

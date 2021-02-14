@@ -1,14 +1,12 @@
 <script>
     import { years } from "./years";
  
-    export let toShow = {
-    now: 2006,
-	prev:2006,
-    next: 2007,
-  };
+    export let currentYear = 2006
+//   let antdiv = document.getElementsByClassName(".imagen")
+//   antdiv.remove()
 </script>
 
-{#each years.filter((year) => year.year === toShow.now)[0].photos as photo}
+{#each years.filter((year) => year.year === currentYear)[0].photos as photo}
 <div class="imagen">
     <img src="/{photo.url}" alt="">
     <div class="overlay">
