@@ -42,6 +42,9 @@
 </div>
 
 <style>
+  h1 {
+    color:rgb(18, 9, 73)
+  }
 	.galeria{
     font-family: 'open sans';
 }
