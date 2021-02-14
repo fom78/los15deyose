@@ -2,8 +2,7 @@
     import { years } from "./years";
  
     export let currentYear = 2006
-//   let antdiv = document.getElementsByClassName(".imagen")
-//   antdiv.remove()
+    
 </script>
 
 {#each years.filter((year) => year.year === currentYear)[0].photos as photo}
