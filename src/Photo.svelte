@@ -6,53 +6,6 @@
 	prev:2006,
     next: 2007,
   };
- // let imag = 'ddd'
- import storageRef from "./firebase/client";
-  // let imagesRef = storageRef.child('2008/01.jpg');
-//   console.log(imagesRef)
-// //   imagesRef.getDownloadURL().then(function(url) {
-// //       console.log('gjhghjug',url)
-// //   })
-   //console.log('fffff',imagesRef.bucket,imagesRef.fullPath,imagesRef.root,imagesRef.storage)
-   
-
-  
-let name='2008/01.JPG'
-const ref = storageRef.ref(`${name}`)
-console.log('hhhh ',ref.getDownloadURL())
-    // async function loadImage (name) {
-    //     let res = ''
-    //  storageRef
-    //   .ref(`${name}`)
-    //   .getDownloadURL()
-    //   .then(resolve => {
-    //     imag= resolve
-    //     res=resolve
-    //     return imag
-    //   })
-    //   .catch(error => {
-    //     console.log(error);
-    //   });
-    //   console.log('ffffff',storageRef,'res: ',res)
-    //   return res
-    // }
-    // loadImage(name)
-// console.log(imag)
-// let arra = years.filter((year) => year.year === toShow.now)[0].photos
-//    let arr2= arra.map(e =>e.url = loadImage('2008/01.JPG'))
-// console.log(arr2)
- 
-  // Create a reference from a Google Cloud Storage URI
-// Create a reference to the file we want to download
-//var starsRef = storageRef.child('2008/01.jpg');
-
-// Get the download URL
-// starsRef.getDownloadURL().then(function(url) {
-//   // Insert url into an <img> tag to "download"
-//   let imagen = url
-//   console.log(imagen)
-// })
-
 </script>
 
 {#each years.filter((year) => year.year === toShow.now)[0].photos as photo}
