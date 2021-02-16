@@ -20,7 +20,7 @@
 </script>
 
 
-<div class="galeria">
+<div class="galeria  bg-pan-right bg-gradient-hor">
   <h1>Los 15 de Yoselin</h1>
   <div class="actual">
 	{#if toShow.now > 2006}
@@ -43,7 +43,7 @@
 
 <style>
   h1 {
-    color:rgb(18, 9, 73)
+    color:rgb(223, 16, 16);
   }
 	.galeria{
     font-family: 'open sans';
@@ -55,23 +55,48 @@
     font-weight: 300;
 }
 
+.bg-pan-right {animation: 8s ease 0s infinite normal both running bg-pan-right;}
+.bg-gradient-hor {background-image: linear-gradient(270deg,#cc6aa5,#c6c927,#3eebc2); background-size: 600% 100%;}
+@-webkit-keyframes bg-pan-right {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }  
+}
+@keyframes bg-pan-right {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }  
+}
+
 .linea{
     border-top: 5px solid #0077C0;
     margin-bottom: 40px;
 }
 .contenedor-imagenes{
-    display:flex;
-    width: 85%;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    justify-items: center;
     margin: auto;
-    justify-content: space-around;
-    flex-wrap: wrap;
     border-radius:3px;
 }
   button {
     background-color: transparent;
     border-style: none;
     cursor: pointer;
-	width:80px;
+	  width:80px;
   	height:80px;
 	
   }
@@ -87,8 +112,8 @@
   }
 
  .actual {
-	
 	text-align: center;
+  font-size: 26px;
  } 
   .next {
 	position:relative; 
@@ -96,4 +121,37 @@
 	top: -4rem;
   }
 
+/* Escritorio extra grande */
+@media only screen and (min-width: 1200px){
+
+}
+/* Escritorio grande */
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+
+}
+
+/* Escritorio pequeño / tablet */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+
+}
+
+/* Tablets y phablets */
+@media only screen and (min-width: 576px) and (max-width: 767px){
+  .contenedor-imagenes{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Teléfonos */
+@media only screen and (max-width: 575px){
+  .contenedor-imagenes{
+    grid-template-columns: 1fr;
+  }
+  .prev {
+    top: -3rem;
+  }
+  .next {
+    top: -3rem;
+  }
+}
 </style>

@@ -1,9 +1,12 @@
 export let years = [
   {
     year: 2006,
-    //photos: ['fotos/2008/01.jpg', 'fotos/2008/01.jpg', 'fotos/2008/01.jpg'],
+    
     photos: [
-      
+      { url: "fotos/2008/01.jpg", date: "Junio" },
+      { url: "fotos/2008/02.jpg", date: "Octubre (ya usando la PC)" },
+      { url: "fotos/2008/03.jpg", date: "Octubre (Con su hermanita...)" },
+      { url: "fotos/2008/04.jpg", date: "Noviembre" },
     ],
     text: "",
   },
@@ -31,10 +34,10 @@ export let years = [
     photos: [
       { url: "fotos/2009/00.jpg", date: "Febrero( Cumpliendo 3 )" },
       { url: "fotos/2009/01.jpg", date: "Septiembre( Pensativa )" },
-      { url: "fotos/2009/02.jpg", date: "Septiembre" },
+      // { url: "fotos/2009/02.jpg", date: "Septiembre" },
       { url: "fotos/2009/09.jpg", date: "Agosto( Maquillada )" },
       { url: "fotos/2009/03.jpg", date: "Octubre( Topless?? )" },
-      { url: "fotos/2009/02.jpg", date: "Octubre" },
+      { url: "fotos/2009/04.jpg", date: "Octubre" },
       { url: "fotos/2009/05.jpg", date: "Diciembre" },
       { url: "fotos/2009/06.jpg", date: "Diciembre(Sonrisita)" },
       { url: "fotos/2009/07.jpg", date: "Diciembre( Ojitos )" },
@@ -72,14 +75,17 @@ export let years = [
   {
     year: 2012,
     photos: [
-      { url: "fotos/2012/01.jpg", date: "Septiembre( A las Corridas )" },
+      { url: "fotos/2012/03.jpg", date: "Septiembre" },
       { url: "fotos/2012/02.jpg", date: "Septiembre( Cabalgando )" },
     ],
     text: "",
   },
   {
     year: 2013,
-    photos: [{ url: "fotos/2013/01.jpg", date: "Septiembre( Que corte! )" }],
+    photos: [
+      { url: "fotos/2013/02.jpg", date: "Enero( Sonrisas )" },
+      { url: "fotos/2013/01.jpg", date: "Septiembre( Que corte! )" }
+  ],
     text: "",
   },
   {

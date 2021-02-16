@@ -6,6 +6,7 @@
 </script>
 
 {#each years.filter((year) => year.year === currentYear)[0].photos as photo}
+
 <div class="imagen">
     <img src="/{photo.url}" alt="">
     <div class="overlay">
@@ -17,9 +18,7 @@
 
 <style>
     :global(.contenedor-imagenes .imagen){
-    width: 32%;
     position: relative;
-    height:250px;
     margin-bottom:5px;
     /* box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, .75) */
 }
@@ -53,7 +52,7 @@
 }
 
 .imagen:hover .overlay{
-    height:100%;
+    height:50%;
     cursor: pointer;
 }
 </style>
