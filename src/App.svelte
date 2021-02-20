@@ -44,6 +44,8 @@
 <style>
   h1 {
     color:rgb(223, 16, 16);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
   }
 	.galeria{
     font-family: 'open sans';
@@ -108,7 +110,7 @@
   .prev {
 	position:relative; 
 	float:left;
-	top: -4rem;
+	top: -3rem;
   }
 
  .actual {
@@ -118,7 +120,7 @@
   .next {
 	position:relative; 
 	float:right;
-	top: -4rem;
+	top: -3rem;
   }
 
 /* Escritorio extra grande */

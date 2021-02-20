@@ -19,7 +19,7 @@ transform="matrix(-1 0 0 1 20 2)"
 >
 <style>
     svg {
-  width:100%;
-  height:100%;
+  width:80%;
+  height:80%;
 }
 </style>
