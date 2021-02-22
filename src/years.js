@@ -137,7 +137,14 @@ export let years = [
   },
   {
     year: 2021,
-    photos: [],
+    photos: [
+      { url: "fotos/2021/01.jpg", date: "Sofi" },
+      { url: "fotos/2021/02.jpg", date: "Joel" },
+      { url: "fotos/2021/03.jpg", date: "Martu" },
+      { url: "fotos/2021/04.jpg", date: "Cande" },
+      { url: "fotos/2021/05.jpg", date: "Luciano" },
+      { url: "fotos/2021/06.jpg", date: "Juli" },
+    ],
     text: "",
   },
 ];
